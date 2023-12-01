@@ -1,0 +1,21 @@
+common:
+  gin_mode: "release"
+  jwt_hour: 1
+  jwt_key: "p9eG7R9IoaFCHGB3HcikAaCyR5QSraCGXnwcMcA1vGHkSvfrDcMDLhMXwxpZ"
+  date_ymd: "2006-01-02"
+  time_location: "Asia/Jakarta"
+  date_time_ymdhis: "2006-01-02 15:04:05"
+  date_time_ymdhis_tz: "2006-01-02T15:04:05Z"
+  datetime_ymdhis_ampm: "2006-01-02 15:04:05 PM"
+  time_his_ampm: "15:04:05 PM"
+  time_his: "15:04:05"
+  time_hi: "15:04"
+
+database:
+  mysql:
+    host: "127.0.0.1"
+    port: "3306"
+    name: "" 
+    username: ""
+    password: ""
+    db : "datatest"
